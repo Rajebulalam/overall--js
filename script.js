@@ -88,5 +88,50 @@
 
                 *Single Line
                 console.log(6 <= 6);
+
+        *Multiple Condition
+            1. && (and) That means the left side and the right side element should to be true.
+                This && (and) condition will be apply on two or more different condition.
+                Ex.
+                    const salary = 100000;
+                    const money = 80000;
+                    console.log(salary && money === 7000);
+
+                    *Two or More Different Condition
+                    const salary = 100000;
+                    const money = 80000;
+                    console.log(salary > money && salary >= 100000);
+
+            2. || (or) That means the left side or the right side there is any one is being true then conditon will be true.
+                This || (or) condition will be apply on two or more different condition. 
+                Ex.
+                    const salary = 100000;
+                    const money = 80000;
+                    console.log((salary || money) >= 100000);
+
+                    *Two or More Different Condition
+                    const salary = 100000;
+                    const money = 80000;
+                    console.log(salary < money || salary >= 100000);
+        *if else Condition
+            if - means => if the condition is ture then execute the inner statement of if.
+            Ex.
+                const salary = 100000;
+                const money = 80000;
+                if (salary > money) {
+                    console.log("Yes it's true");
+                } else {
+                    console.log("No it's not true");
+                }
+
+            else - means => if the condition is not true then execute the inner statement of else.
+            Ex.
+                const salary = 100000;
+                const money = 80000;
+                if (salary < money) {
+                    console.log("Yes it's true");
+                } else {
+                    console.log("No it's not true");
+                }
 */
 
