@@ -135,3 +135,60 @@
                 }
 */
 
+/* 
+    1.3 Array
+        Array is method that's are includes so many information in one.
+        1. Array Declare = Array declare in [] third bracket thats call Square Brackets.
+        Ex.
+            const arr = [1, 3, 4, 5, 6, 7, 8, 9];
+
+        2. length = To find out the number of length in array element. 
+        Ex.
+            const arr = [1, 3, 4, 5, 6, 7, 8, 9];
+            console.log(arr.length);
+
+        3. index () = Two kinds of index =>
+            1. First one is it could be set or change any array position elements - means replace.
+            Ex.
+                const arr = [1, 3, 4, 5, 6, 7, 8, 9];
+                arr[0] = 2;
+                console.log(arr);
+
+            2. Second one is two know array specific position element.
+            Ex.
+                const arr = [1, 3, 4, 5, 6, 7, 8, 9];
+                console.log(arr[2]);
+
+        4. indexOf () = To find out array specific position element - if there is the element then its showing the element position, if there is not the element then its showing position -1.
+        Ex.
+            const arr = [1, 3, 4, 5, 6, 7, 8, 9];
+            console.log(arr.indexOf(5));
+
+        5. push () = To add an element on the array in last.
+        Ex.
+            const arr = [1, 3, 4, 5, 6, 7, 8, 9];
+            arr.push(10);
+            console.log(arr);
+
+        6. pop () = To remove an element on the array in last.
+        Ex.
+            const arr = [1, 3, 4, 5, 6, 7, 8, 9];
+            arr.pop();
+            console.log(arr);
+        7. unshift () = To add an element on the array in first.
+        Ex.
+            const arr = [1, 3, 4, 5, 6, 7, 8, 9];
+            arr.unshift(0);
+            console.log(arr);
+
+        8. shift () = To remove an element on the array in first.
+        Ex.
+            const arr = [1, 3, 4, 5, 6, 7, 8, 9];
+            arr.shift();
+            console.log(arr);
+
+        9. includes () = To know there is the includes element and it would be return true or false.
+        Ex.
+            const arr = [1, 3, 4, 5, 6, 7, 8, 9];
+            console.log(arr.includes(10));
+*/
