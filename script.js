@@ -209,3 +209,22 @@
 
 
 */
+
+/* 
+    1.5 Function
+        1. Without parameter
+        Ex.
+            function add() {
+                console.log(5*5);
+            }
+            add();
+
+        2. With parameter and return 
+        Ex.
+            function add(num1, num2) {
+                const sum = num1 + num2;
+                return sum;
+            }
+            const output = add(12, 12);
+            console.log(output);
+*/
