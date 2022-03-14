@@ -192,3 +192,20 @@
             const arr = [1, 3, 4, 5, 6, 7, 8, 9];
             console.log(arr.includes(10));
 */
+
+/* 
+    1.4 for loop
+        it means to turn over on any specific condition.
+        Ex.
+            for(let i = 0; i < 10; i++){
+            console.log(i);
+            }
+
+        * for of loop
+            let arr = [1, 2, 3, 4, 5];
+            for(const arr2 of arr){
+                console.log(arr2 + 2);
+            }
+
+
+*/
