@@ -228,3 +228,66 @@
             const output = add(12, 12);
             console.log(output);
 */
+
+/* 
+    1.6 Object
+        Object is a method that are includes so many infomation in one with property that has two part 
+            1. one is - key
+            2. another one is - value
+            Ex.
+                const student = {name = (key): 'Rajebul Alam' (value)}
+        1. Object declare = object declare with {} second brackets that's call curly braces
+        Ex.
+            const student = {
+                id : 1,
+                name  : 'Rajebul Alam Khokan',
+                age : 23
+            }
+            console.log(student);
+
+        2. Declare including 
+            1. array
+            2. object
+            Ex.
+                const student = {
+                    id : 1,
+                    name  : 'Rajebul Alam Khokan',
+                    age : 23,
+                    work : {
+                        companyName : 'ceo',
+                        employee : 150,
+                        address : 'Bangladesh'
+                    },
+                    skill : ['HTML', 'CSS', 'JS', 'Bootstrap']
+                }
+                console.log(student);
+
+        3. Object value can be assigning three ways
+            1. use of direct property name.
+            Ex.
+                const student = {
+                    id : 1,
+                    name  : 'Rajebul Alam Khokan',
+                    age : 23
+                }
+                console.log(student.id);
+
+            2. use of property name in [""] third bracket.
+            Ex.
+                const student = {
+                    id : 1,
+                    name  : 'Rajebul Alam Khokan',
+                    age : 23
+                }
+                console.log(student['id']);
+
+            3. Taken property name and set up this property name on vriable value.
+            Ex.
+                const student = {
+                    id : 1,
+                    name  : 'Rajebul Alam Khokan',
+                    age : 23
+                }
+                const old = 'age';
+                console.log(student[old]);
+*/
