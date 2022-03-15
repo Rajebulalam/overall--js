@@ -552,6 +552,17 @@
 
 */
 
-
+/* 
+    3.4 History API
+        That are use to know what i scroll and get into a website.
+        1. history => We can know the history what i have been click to get inside.
+        2. history.length => We knaw how long we get inside the website page.
+        3. history.forword() => To visit the next page.
+        4. history.back() => To go the previous page.
+        5. history.go() => To know what have i visit before and afetr ther website in step.
+        Ex. 
+            history.go(5)
+            history,go(-3)
+*/
 
 
