@@ -483,6 +483,57 @@
         }
 */
 
+/* 
+    3.2 Storage
+        1. Local Storage = Local storage means a store that we can put data forn a long time. 
+        Ex.
+            localStorage.setItem('Name', 'Rajebul Alam Khokan');
+
+            * When want to set array or object in local storage then at first we should to convert the array or object in strigify.
+            const object = {
+                id : 1,
+                name : 'Rajebul Alam Khokan',
+                salary : 100000,
+                work : {
+                    companyName : 'RAK',
+                    employee : 150,
+                    address : {
+                        country : 'Bangladesh',
+                        district : 'Chattogram',
+                        upazilla : 'Hathazari'
+                    }
+                }
+            } 
+            const setLocalStorage = JSON.stringify(object);
+            localStorage.setItem('Object', setLocalStorage);
+
+        2. Session Storage = Session storage means a store that we can put data forn a short time.
+            * Session storage work like local storage but different is that session storsge has short life and local storage has long life.
+            Ex.
+                sessionStorage.setItem('Name', 'Rajebul Alam Khokan');
+
+                * Setr Object
+                const object = {
+                    id : 1,
+                    name : 'Rajebul Alam Khokan',
+                    salary : 100000,
+                    work : {
+                        companyName : 'RAK',
+                        employee : 150,
+                        address : {
+                            country : 'Bangladesh',
+                            district : 'Chattogram',
+                            upazilla : 'Hathazari'
+                        }
+                    }
+                } 
+                const setLocalStorage = JSON.stringify(object);
+                sessionStorage.setItem('Object', setLocalStorage);
+
+
+*/
+
+
 
 
 
