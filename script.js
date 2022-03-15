@@ -297,6 +297,7 @@
 /* 
     2.1 Template String
         Its means you can write so many variables value what ever it is like object, array, number, string and it set dynamicaly in one variable. Template string are written into inner carret => ``
+        Ex.
 
         const name = 'Rajebul Alam Khokan';
         const age = 23;
@@ -316,4 +317,25 @@
     
 */
 
+/* 
+    2.2 Spread Operator
+        Its means put the array value to another variable and create a new array.
+        1. Copy an array to create a new array with this using spread operator.
+        Ex.
+            const arr = [1, 2, 3, 4, 5, 6, 7];
+            const newArr = [...arr];
+            console.log(newArr);
 
+        2. Copy an array and then craete a new array with this using spraed operator and then add a new element on this new array.
+        Ex.
+            const arr = [1, 2, 3, 4, 5, 6, 7];
+            const newArr = [...arr, 8];
+            console.log(newArr);
+
+        3. Use filter to remove an element from an array.
+        Ex.
+            const arr = [1, 2, 3, 4, 5, 6, 7];
+            const newArr = arr.filter(arr2 => arr2 !== 2);
+            console.log(newArr);
+
+*/
