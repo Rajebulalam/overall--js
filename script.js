@@ -1,4 +1,4 @@
-// 1. Six Basics Fundamentals
+// 1. Six Basics Fundamentals in Javascript
 
 /* 
     1.1 variable (const, let)
@@ -291,3 +291,29 @@
                 const old = 'age';
                 console.log(student[old]);
 */
+
+// ES6 Basics Fundamenetal
+
+/* 
+    2.1 Template String
+        Its means you can write so many variables value what ever it is like object, array, number, string and it set dynamicaly in one variable. Template string are written into inner carret => ``
+
+        const name = 'Rajebul Alam Khokan';
+        const age = 23;
+        const work = {
+            profession : 'Web Development',
+            salary : 100000,
+            skill : {
+                first : 'HTML',
+                second : 'CSS',
+                third : 'JS'
+            }
+        }
+        const favNum = [3, 7, 17, 63];
+
+        const templaetString = ` I am ${name}. I am ${age} years old. My work is ${work.profession}. My salary is ${work.salary} .I am expert in ${work.skill.first} ${work.skill.second} and ${work.skill.third} and my favourite number is ${favNum}.`;
+        console.log(templaetString);
+    
+*/
+
+
