@@ -441,6 +441,29 @@
             console.log(output2);
 */
 
+/* 
+    2.6 Optional Chaining
+        That means if the spicific condition or element get then it go next other wise it will return what he assign in before.
+        Ex.
+            const object = {
+                id : 1,
+                name : 'Rajebul Alam Khokan',
+                salary : 100000,
+                work : {
+                    companyName : 'RAK',
+                    employee : 150,
+                    address : {
+                        country : 'Bangladesh',
+                        district : 'Chattogram',
+                        upazilla : 'Hathazari'
+                    }
+                }
+            }
+
+            console.log(object?.work?.employee);
+
+*/
+
 
 
 
