@@ -464,6 +464,25 @@
 
 */
 
+// 3. Browser API
+
+/* 
+    3.1 fetch = That used to taken data from different website.
+    Ex.
+        fetch(``)
+        .then(res => res.json())
+        .then(data => console.log(data));
+
+        * To use different angle
+        fetch(``)
+            .then(res => res.json())
+            .then(data => displayData(data));
+
+        const displayData = data => {
+            console.log(data);
+        }
+*/
+
 
 
 
