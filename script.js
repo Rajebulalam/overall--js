@@ -533,6 +533,24 @@
 
 */
 
+/* 
+    3.3 Location API
+        That means browsers location its use specificaly => url => url's different part are describe in location API.
+        Ex.
+            1. location => We can get full url or link with this.
+            2. location.pathname => We can get the site path with this.
+            3. location.href => We can get the main url or link with this and also we can set a new href.
+            Ex. 
+                location.href = 'https://fontawesome.com/'
+            
+            4. location.hash(#) => We can get after # sign part and also we can change this hash.
+            Ex.
+                location.hash = 'galary'
+
+            5. location.search => We can get search query what have after the ? mark in a link.
+            6. location.hostname => We can get the domain name with this.
+
+*/
 
 
 
