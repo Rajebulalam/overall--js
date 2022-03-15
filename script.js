@@ -376,3 +376,71 @@
             const output = first(25, 5);
             console.log(output);
 */
+
+/* 
+    2.4 Destructuring
+        Taken array and object value using simple method.
+        1. Object Destructuring = That means a variable that can assign object values using its property name as variable name and it should be included inner {} second bracket and also there should be object  property name.
+        Ex.
+            const object = {
+                id : 1,
+                name : 'Rajebul Alam Khokan',
+                salary : 100000,
+                work : {
+                    companyName : 'RAK',
+                    employee : 150,
+                    address : {
+                        country : 'Bangladesh',
+                        district : 'Chattogram',
+                        upazilla : 'Hathazari'
+                    }
+                },
+                skill : ['HTML', 'CSS', 'JS'],
+            }
+
+            const {id, name, salary} = object;
+            console.log(id);
+            console.log(id, name, salary);
+
+            const {employee, companyName, address} = object.work;
+            console.log(employee);
+            console.log(employee, companyName, address.country);
+
+            const [first, second, third] = object.skill;
+            console.log(first);
+            console.log(first, second);
+
+        2. Array Destructurig = That means a variable that can assign array property using its positon as name and it should be included inner [] third bracket and works on its position you can take any name there.
+        Ex.
+            const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+            const [first, second] = arr;
+            console.log(first, second);
+*/
+
+/* 
+    2.5 Function Parameter With Default Value
+        That means when we didn't send the number of input what have the function parameter number then we can set a default value with parameter, when the parameter value is absent then the default value is worked as a par ameter value.
+        Ex.
+            function add(num1, num2 = 25){
+                const sum = num1 + num2;
+                return sum;
+            }
+            const output = add(25, 25);
+            console.log(output);
+            const output2 = add(25);
+            console.log(output2);
+
+            * Using Arrow Function
+                        const add = (num1, num2 = 25) => {
+                const sum = num1 + num2;
+                return sum;
+            }
+            const output = add(25, 25);
+            console.log(output);
+            const output2 = add(25);
+            console.log(output2);
+*/
+
+
+
+
