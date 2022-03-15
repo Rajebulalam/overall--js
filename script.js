@@ -339,3 +339,40 @@
             console.log(newArr);
 
 */
+
+/* 
+    2.3 Arrow Function
+        It means write a function with standard way.
+        1. No parameter
+        Ex.
+            const first = () => console.log(5 * 5);
+            first();
+        2. Single Parameter
+        Ex.
+            const first = num => console.log(num * 5);
+            first(25);
+        3. Multiple Parameter
+        Ex.
+            const first = (num1, num2) => console.log(num1 * num2);
+            first(25, 5);
+
+        4. Multiline arrow function
+        Ex.
+            const first = (num1, num2) => {
+                const sum = num1 + num2;
+                return sum;
+                
+            };
+            const output = first(25, 5);
+            console.log(output);
+
+            const first = (num1, num2) => {
+                const sum = num1 + num2;
+                const multiply = sum * 5;
+                const division = multiply / 10;
+                return division;
+                
+            };
+            const output = first(25, 5);
+            console.log(output);
+*/
